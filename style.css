@@ -1,0 +1,524 @@
+body{
+  margin: 0px;
+  text-align: center;
+
+}
+.introname{
+  font-size: 7rem;
+  font-family: 'Sacramento', cursive;
+  color: #D2375E;
+}
+.footwork{
+  font-size: 3rem;
+  font-family: 'Sacramento', cursive;
+  color: white;
+}
+.footwork1{
+  font-size: 2.4rem;
+  font-family: 'Sacramento', cursive;
+  color: white;
+}
+.cond{
+  font-family: 'Sacramento', cursive;
+  font-size:3rem;
+  font-weight: bold;
+}
+.introwork{
+  font-size: 2rem;
+  color:#D2375E;
+  font-family: 'Dosis', sans-serif;
+}
+.c1{
+  color:#8C4843;
+}
+.line1{
+  border-style: dotted none none;
+  border-width: 10px;
+  width:5%;
+  border-color:#D2375E;
+}
+
+.Header{
+  background-color:#F9DCDD;
+  padding: 40px;
+  padding-top: 100px;
+  position: relative;
+}
+.tree{
+  height: 10%;
+  width:40%;
+}
+.wlcom{
+  height: 15%;
+  width: 25%;
+
+}
+.und{
+  text-decoration: underline;
+}
+.up{
+  text-decoration:  overline;
+}
+.cloud1{
+  position: absolute;
+  bottom:20rem;
+  left:20rem;
+  transition: 0.8s;
+}
+.cloud2{
+  position: absolute;
+  right:20rem;
+  top:15rem;
+  transition: 0.8s;
+}
+.sbimg{
+  margin-top: 3rem;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 10rem;
+  border: 0.7rem solid #E9EBED;
+  padding: 1rem;
+}
+
+.sbimg2{
+  margin-top: 3rem;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 15rem;
+  border: 0.7rem solid #E9EBED;
+
+}
+.sbimg1{
+  margin-top: 3rem;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 10rem;
+  border: 0.3rem solid #D80032;
+  margin-left: 2.5rem;
+  margin-right:2.5rem;
+  padding: 1rem;
+
+}
+.skll:hover{
+  transform: scale(1.1);
+  opacity:0.9;
+  cursor: pointer;
+}
+.midint{
+  color:#D2375E;
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 3rem;
+
+}
+.midwork{
+  color:black;
+  font-family: 'Montserrat', sans-serif;
+  width:25rem;
+  margin:auto;
+  font-size: 1.2rem;
+
+}
+
+.buttn1{
+text-decoration: none;
+border: 1.2px solid #D2375E;
+color:#D2375E;
+padding: 10px;
+border-radius: 30px;
+padding-right: 20px;
+padding-left: 20px;
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+transition: 0.8s;
+}
+.buttn1:hover{
+  color:white;
+  background-color:#D2375E;
+}
+ul{
+  list-style: none;
+}
+li{
+  color:#D2375E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.skillint{
+  color:#D2375E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+
+}
+.skillwork{
+  color:black;
+  font-family: 'Montserrat', sans-serif;
+  width:25rem;
+  margin:auto;
+  font-size: 1rem;
+}
+.skll{
+    background:#E9EBED;
+    padding:0.5rem;
+    display: inline-block;
+    margin:0.5rem;
+    border-radius: 0.8rem;
+    transition: 0.8s;
+}
+.blk1{
+  display: inline-block;
+}
+
+.Projects{
+  background: #ECFBFC;
+  padding-top: 0.5rem;
+  height: 20rem;
+}
+
+
+.footer{
+  padding: 2% 15%;
+  text-align: center;
+  background:#D2375E;
+  border-top-left-radius: 1000px;
+  border-top-right-radius: 1000px;
+}
+
+
+.cop{
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+}
+
+
+
+.introwork {
+  border-right: solid 3px #05A8AA;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: auto;
+}
+
+/* Animation */
+.introwork {
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 24rem;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: #D2375E;}
+  to{border-right-color: transparent;}
+}
+@media (max-device-width: 1028px){
+    .introname{
+      font-size:7rem;
+    }
+    .introwork{
+      font-size:3rem;
+    }
+    .cloud1{
+
+      opacity: 0.6;
+      transform: translateX(-6rem);
+    }
+    .cloud2{
+      opacity: 0.6;
+      transform: translateX(6rem);
+    }
+    .wlcom{
+      height: 35%;
+      width: 50%;
+    }
+    .tree{
+      height: 40%;
+      width:70%;
+    }
+    .sbimg{
+      height: 20rem;
+      width: 20rem;
+    }
+    .sbimg1{
+      height: 10rem;
+      width: 10rem;
+    }
+    .sbimg2{
+      height: 22rem;
+      width: 22rem;
+    }
+    .midint{
+      font-size: 7rem;
+    }
+    .midwork{
+      font-size: 2rem;
+      width:35rem;
+    }
+    .line1{
+      border-width: 1rem;
+      width:10%;
+    }
+
+    .skll{
+      font-size: 2rem;
+    }
+    .skillint{
+      font-size: 3.5rem;
+      font-weight: bold;
+    }
+
+    .downloadbut{
+      font-size: 2rem;
+    }
+    .social-icon{
+      font-size: 2.7rem;
+    }
+    .cond{
+      font-size:4.5rem;
+    }
+    .footwork{
+      font-size: 4rem;
+    }
+    .footwork1{
+      font-size: 3rem;
+
+    }
+    .lb{
+
+       font-size: 1rem;
+    }
+    @keyframes animated-text{
+      from{width: 0;}
+      to{width: 34rem;}
+    }
+}
+@media (min-device-width: 768px) and (max-device-width: 1024px)
+{
+    .introname{
+      font-size:6rem;
+    }
+    .introwork{
+      font-size:2rem;
+    }
+    .cloud1{
+
+      opacity: 0.6;
+      transform: translateX(-6rem);
+    }
+    .cloud2{
+      opacity: 0.6;
+      transform: translateX(6rem);
+    }
+    .wlcom{
+      height: 30%;
+      width: 45%;
+    }
+    .tree{
+      height: 30%;
+      width:60%;
+    }
+    .sbimg{
+      height: 12rem;
+      width: 12rem;
+    }
+    .sbimg1{
+      height: 10rem;
+      width: 10rem;
+    }
+    .sbimg2{
+      height: 16rem;
+      width: 16rem;
+    }
+    .midint{
+      font-size: 4rem;
+    }
+    .midwork{
+      font-size: 1.5rem;
+      width:30rem;
+    }
+    .line1{
+      border-width: 1rem;
+      width:10%;
+    }
+    .skillint{
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+    .downloadbut{
+      font-size: 2rem;
+    }
+    .cond{
+      font-size:3rem;
+    }
+    .footwork{
+      font-size: 3.5rem;
+    }
+    .footwork1{
+      font-size: 2.8rem;
+    }
+    .lb{
+
+       font-size: 1rem;
+    }
+  @keyframes animated-text{
+      from{width: 0;}
+      to{width: 23rem;}
+    }
+}
+
+.wrap{
+  width:800px;
+  height:800px;
+  margin:0px auto;
+  position: relative;
+}
+
+
+
+.email{
+  display:block;
+  padding-top:60px;
+}
+.phone{
+  display:block;
+  line-height: 34px;
+}
+
+
+.envelop{
+  width:500px;
+  height:300px;
+  margin: 200px auto;
+  position: absolute;
+  left:0;
+  right: 0;
+
+}
+.social{
+  font-size:30px;
+  padding-top:35px;
+}
+
+.arrow-left {
+	width: 0;
+	height: 0;
+	border-top: 300px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-right:500px solid #ECE9E9 ;
+  z-index:50;
+  position: relative;
+
+}
+
+.arrow-right {
+	width: 0;
+	height: 0;
+	border-top: 300px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 500px solid #ECE9E9 ;
+  margin-top:-300px;
+  display:block;
+  z-index:60;
+  position: relative;
+}
+
+
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+	border-top: 180px solid  #D6D6D6;
+  margin-top:-263px;
+  display:block;
+  transform-origin:top;
+  position: relative;
+  z-index:150;
+}
+
+#checkbox {
+  display:none;
+  font-style:'Sacramento', cursive;
+
+}
+label[for=checkbox]  {
+  display:block;
+  text-align:center;
+  margin-top:-105px;
+  color:#D80032;
+  position:relative;
+  z-index:800;
+  cursor:pointer;
+  font-weight:1000;
+  font-family:'Sacramento', cursive;
+
+}
+.lb{
+   font-style:'Sacramento', cursive;
+   font-size: 2.5rem;
+}
+input[type="checkbox"]:checked~.arrow-down{
+ animation:open 10s;
+
+}
+
+#card{
+
+  width:500px;
+  height:220px;
+  background:#D80032;
+  margin: 0px auto;
+  position: absolute;
+  left:0;
+  right: 0;
+  z-index:0;
+  color:white;
+}
+.fa {
+  color:#D80032;
+
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+#card_after {
+
+  text-align:center;
+  font-weight: bolder;
+  width:500px;
+  height:260px;
+  background:#D80032;
+  position: absolute;
+  left:0;
+  right: 0;
+  margin:0px auto;
+  animation: envelop 8s 1s ease;
+  z-index:50;
+  font-size:1.7rem;
+  color:white;
+}
+
+@keyframes open{
+  0%{ transform: rotate(0deg); z-index:10;}
+  10%{ transform: rotateX(180deg); z-index:10;}
+  90%{ transform: rotateX(180deg);z-index:10;}
+  100%{ transform: rotateX(0deg);z-index:150;}
+}
+@keyframes envelop{
+  0%{ transform:translateY(0px); }
+  20%{ transform:translateY(-100px); }
+  70%{ transform:translateY(-100px);}
+  80%{ transform:translateY(0px);}
+}
